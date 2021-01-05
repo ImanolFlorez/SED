@@ -1,0 +1,155 @@
+/* PDF ESTILOS GENERALES*/
+:root{
+    --Backgound: #bfbfbf;
+}
+
+.colorFondo{
+    background-color: var(--Backgound);
+}
+
+.borde{
+    border: 1px solid;
+}
+
+.contenedor{
+    width: 902px
+}
+
+.flex{
+    display: flex;
+}
+
+.separacion{
+    padding-left: 5px;
+}
+
+
+
+/* ESTILOS ENCABEZADOS PRIMER CUEPO*/
+.encabezado_arriba{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.acta{
+    text-align: center;
+    width: 200px;
+}
+
+.tipoMovi{
+    text-align: center;
+    width: 700px;
+}
+
+.sub_info{
+    text-align: center;
+    width: 902px;
+}
+
+.fecha_entrega{
+    width: 400px;
+}
+
+.fecha_recibido{
+    width: 500px;
+}
+
+
+
+/* ESTILOS SEGUNDO CUERPO */
+
+.func{
+  width: 200px;
+}
+
+.func_name{
+    text-align: center;
+    min-width: 130px;
+}
+
+.func_num{
+    min-width: 130px;
+    text-align: center;
+}
+
+.func_entrega{
+    width: 170px;
+}
+
+.func_recibe{
+    width: 195px;
+}
+
+.func_recibe_nombre{
+    width: 434px;
+}
+
+.document{
+    width: 130px;
+    text-align: center;
+}
+
+.oficina{
+    width: 300px;
+}
+
+.campo{
+    width: 470px;
+    text-align: center;
+}
+
+.ubicacion{
+    width: 130px;
+    text-align: center;
+}
+
+.Ingreso{
+    width: 288px;
+}
+
+.jefaArea{
+    width: 533px;
+}
+
+/* ESTILOS TERCER CUERPO */
+.titulo{
+    text-align: center;
+}
+
+.Detalle-producto{
+    width: 214px;
+    text-align: center;
+}
+
+.first{
+    width: 50px;
+}
+
+.marcado{
+    height: 45px;
+    width: 902px;
+    text-align: center;
+}
+
+.parrafo{
+    width: 800px;
+}
+
+.marcacion{
+    width: 50px;
+}
+
+/* ESTILOS CUATO CUERPO */
+
+.F-funcionario{
+    width: 33.3%;
+    height: 100px;
+}
+
+.firmas{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    border: 1.5px solid;
+}
