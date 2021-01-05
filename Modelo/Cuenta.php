@@ -7,7 +7,7 @@
             $data=array();
             $sql = mysqli_query($conx,  "SELECT c.`c_cood`,c.`c_usuario`,c.`c_contrasena`,tc.`tc_cood`,tc.`tc_descripcion`
                                         FROM cuenta AS c,tipo_cuenta AS tc
-                                        WHERE c.`tc_cood`=tc.`tc_cood`") or die (mysqli_error ());
+                                        WHERE c.`tc_cood`=tc.`tc_cood`") or die ("Error");
             while($reg = mysqli_fetch_array($sql)){
                 $data[$reg["c_cood"]] = array("Usuario"=>$reg["c_usuario"],
                                                 "Contrasena"=>$reg["c_contrasena"],
